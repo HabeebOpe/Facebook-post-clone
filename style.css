@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'PT Sans', sans-serif;
+   background-color: dodgerblue;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 100vh;
+}
+.container{
+   overflow: hidden;
+   background-color: white;
+   border-radius: 5px;
+   width: 300px;
+   height: 320px;
+   transition: 0.38s ease;
+}
+.wrapper{
+   display: flex;
+}
+.container.activ{
+   height: 400px;
+}
+.container.activ .post-section{
+   margin-left: -300px;
+}
+.post-section{
+   min-width: 300px;
+   transition: margin-left 0.38s ease;
+}
+.header{
+   width: 100%;
+   border-bottom: 1px solid #ccc;
+   text-align: center;
+   padding: 7px;
+}
+.head-section{
+   display: flex;
+   padding: 8px 0 4px 0;
+}
+.profile img{
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   margin: 0 15px;
+}
+.head-section h4{
+   margin-bottom: 8px;
+}
+.head-section .privacy-option{
+   width: 100px;
+   background-color: #ccc;
+   padding: 2px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.privacy-option:hover{
+   cursor: pointer;
+}
+.privacy-option span{
+   font: 10px;
+   font-weight: bold;
+   margin: 0 3px;
+}
+.privacy-option i{
+   font-size: 12px;
+}
+.type-section{
+   padding: 2px 10px;
+   width: 100%;
+}
+.type-section textarea{
+   width: 100%;
+   height: 70px;
+   padding: 4px;
+   border: none;
+   outline: none;
+   font-size: 13px;
+   
+}
+.emoji-image{
+   width: 100%;
+   padding: 2px 15px;
+   display: flex;
+   justify-content: space-between;
+}
+.emoji-image img{
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+.button-sec{
+   padding: 5px 10px;
+}
+.add-to-post{
+   width: 100%;
+   padding: 8px 5px;
+   border: 2px solid #ccc;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.add-to-post .add-post{
+   font-size: 15px;
+   color: #ccc;
+   font-weight: bold;
+}
+.add-to-post span img{
+   width: 20px;
+   height: 20px;
+   margin: 0 3px;
+   cursor: pointer;
+}
+button{
+   width: 100%;
+   padding: 10px;
+   /*background-color: #e2e5e9;*/
+   background-color: dodgerblue;
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   margin: 10px 0;
+   cursor: pointer;
+}
+
+
+
+.audience-section{
+   min-width: 300px;
+   background-color: white;
+   padding-bottom: 5px;
+}
+.audience-header{
+   width: 100%;
+   padding: 10px 5px;
+   position: relative;
+   text-align: center;
+   border-bottom: 1px solid #ccc;
+}
+.audience-header i{
+   position: absolute;
+   left: 10px;
+   width: 30px;
+   height: 30px;
+   text-align: center;
+   background-color: #ccc;
+   border-radius: 50%;
+   line-height: 30px;
+   top: 6px;
+   bottom: 3px;
+   cursor: pointer;
+}
+.question{
+   width: 100%;
+   padding: 7px 10px;
+}
+.question h4{
+   margin-bottom: 4px;
+}
+.question p{
+   font-size: 14px;
+}
+.audience-list ul{
+   width: 100%;
+   padding: 0 7px;
+}
+.audience-list ul li{
+   margin: 5px 0;
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 7px 10px;
+   border-radius: 5px;
+}
+li:hover{
+   background-color: lightblue;
+}
+.active{
+   background-color: lightblue;
+}
+ul li span{
+   width: 35px;
+   height:35px;
+   background-color: #ccc;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+ul li span i{
+   font-size: 17px;
+}
+ul li div{
+   position: absolute;
+   left: 60px;
+}
+ul li div p{
+   font-size: 14px;
+}
+

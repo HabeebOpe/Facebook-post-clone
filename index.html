@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Facebook post clone - BEEB</title>
+   <!-- CUSTOM STYLE -->
+   
+   <link rel="stylesheet" href="style.css">
+   
+   <script src="https://kit.fontawesome.com/1c36f4658d.js" crossorigin="anonymous">
+   </script>
+
+</head>
+
+<body>
+   <div id="container" class="container">
+      <div class="wrapper">
+      <div class="post-section">
+         
+      <div class="header">
+         <h3> Create Post</h3>
+      </div>
+      <form id="#" class="section">
+         
+         <div class="head-section">
+         <div class="profile">
+            <img src="images/profile.jpg" alt="profile-img">
+         </div>
+         <div>
+               <h4>Habeebullah Ope</h4>
+               <span id="privacy" class="privacy-option">
+                  <i class="fa-solid fa-user-friends"></i>  
+                  
+                  <span>friends</span>
+                  
+                  <i class="fa-solid fa-caret-down"></i>
+               </span>
+         </div>
+         </div>
+         
+         <div class="type-section">
+            <textarea name="" id="textarea" placeholder="What's on your mind, Habeebullah?" required></textarea>
+         </div>
+         <div class="emoji-image">
+            <img class="img" src="icons/6631821.png" alt="select image">
+            
+            <img src="icons/2958908.png" alt="select emoji">
+         </div>
+         <div class="button-sec">
+            
+         <div class="add-to-post">
+            <span class="add-post">Add to your post</span>
+            
+            <span>
+               
+               <img src="icons/4449042.png" alt="">
+               <img src="icons/8345422.png" alt="">
+               <img src="icons/1791295.png" alt="">
+               <img src="icons/2493508.png" alt="">
+               <img src="icons/512142.png" alt="">
+            </span>
+            
+         </div>
+         <button class="post"> Post </button>
+         
+         </div>
+         
+      </form>
+      </div>
+
+   <div class="audience-section">
+      <div class="audience-header">
+         <i id="back" class="fa-solid fa-arrow-left"></i>
+         <h3>Select your audience</h3>
+      </div>
+      <div class="question">
+         <h4>Who can see your post?</h4>
+         <p>Your post will show up in News Feed, your profile and in search results</p>
+      </div>
+      <div class="audience-list">
+         <ul class="rating">
+            <label for="aud-1">
+               <li class="li-1">
+               <span>
+               <i class="fa-solid fa-globe-asia"></i>
+               </span>
+               <div>
+               <h4>Public</h4>
+               <p>Anyone on or off facebook</p>
+               </div>
+               <input type="radio" name="radio" id="aud-1">
+            </li>
+            </label>
+            <label for="aud-2">
+               <li class="active">
+               <span>
+               <i class="fa-solid fa-user-friends"></i>
+               </span>
+               <div>
+               <h4>Friends</h4>
+               <p>Your friends on facebook</p>
+               </div>
+               <input type="radio" name="radio" id="aud-2" checked>
+            </li>
+            </label>
+            <label for="aud-3">
+               <li class="li-3">
+               <span>
+               <i class="fa-solid fa-user"></i>
+               </span>
+               <div>
+               <h4>Specific</h4>
+               <p>Only show to some friends</p>
+               </div>
+               <input type="radio" name="radio" id="aud-3">
+            </li>
+            </label>
+            <label for="aud-4">
+               <li class="li-4">
+               <span>
+               <i class="fa-solid fa-lock"></i>
+               </span>
+               <div>
+               <h4>Only me</h4>
+               <p>Only you can see your post</p>
+               </div>
+               <input type="radio" name="radio" id="aud-4">
+            </li>
+            </label>
+            <label for="aud-5">
+               <li class="li-5">
+               <span>
+               <i class="fa-solid fa-cog"></i>
+               </span>
+               <div>
+               <h4>Custom</h4>
+               <p>Include and exclude friends</p>
+               </div>
+               <input type="radio" name="radio" id="aud-5">
+            </li>
+            </label>
+         </ul>
+      </div>
+   </div>
+      </div>
+   </div>
+      
+ <script src="main.js"></script> 
+</body>
+
+</html>
